@@ -14,7 +14,13 @@ public class SistemaIFC1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Estudante camada = new Estudante ();
+         Estudante vini = new Estudante ();
+          Estudante JK = new Estudante ();
+          
+          camada.setNome("camada");
+          vini.setNome("vini");
+          JK.setNome("JK");
     }
     
 }
