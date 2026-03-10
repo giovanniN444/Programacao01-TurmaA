@@ -20,7 +20,10 @@ public class SistemaIFC1 {
           
           camada.setNome("camada");
           vini.setNome("vini");
-          JK.setNome("JK");
+          JK.setNome("camada");
+          System.out.println(camada.getNome());
+           System.out.println(vini.getNome());
+           System.out.println(JK.getNome());
     }
     
 }
